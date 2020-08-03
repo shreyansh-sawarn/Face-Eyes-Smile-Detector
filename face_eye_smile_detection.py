@@ -1,5 +1,6 @@
 """
 This module is a face detection classifier and turns on the webcam.
+Developed by Shreyansh Sawarn.
 """
 import os
 import cv2
