@@ -16,7 +16,6 @@ EYE_CASCADE = cv2.CascadeClassifier(
 SMILE_CASCADE = cv2.CascadeClassifier(
     os.path.join(CURRENT_FILE_PATH, 'haarcascade_smile.xml'))
 
-
 def face_detection(bw_img, orig_img):
     """Takes the black-white version of an image and the original image and
     performs face, eye and smile detection on the black-white image. The detected features
