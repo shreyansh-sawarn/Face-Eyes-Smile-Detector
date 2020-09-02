@@ -84,7 +84,6 @@ def start_video_capturing(video_capture):
     video_capture.release()
     cv2.destroyAllWindows()
 
-
 if __name__ == '__main__':
     # 0 = internal webcam, 1 = external webcam
     VIDEO_CAPTURE = cv2.VideoCapture(0)
