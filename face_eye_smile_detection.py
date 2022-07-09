@@ -9,7 +9,7 @@ CURRENT_FILE_PATH = os.path.dirname(__file__)
 
 # Load the haar-like features
 FACE_CASCADE = cv2.CascadeClassifier(os.path.join(
-    CURRENT_FILE_PATH, 'haarcascade_frontalface.xml'))
+    CURRENT_FILE_PATH, 'haarcascade_frontface.xml'))
 EYE_CASCADE = cv2.CascadeClassifier(
     os.path.join(CURRENT_FILE_PATH, 'haarcascade_eye.xml'))
 SMILE_CASCADE = cv2.CascadeClassifier(
