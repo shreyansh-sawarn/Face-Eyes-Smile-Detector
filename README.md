@@ -5,7 +5,7 @@ A python based project to detect an user's face, eyes and smile. It uses Haar-li
 Users can detect face, eyes and smile using their webcam and screenshot using **`s`**-key on your keyboard and save it into the `imgs` folder.
 
 ### Steps for running the project:
-1. Clone the repository using the command 'git clone '
+1. Clone the repository using the command 'git clone [url][https://github.com/shreyansh-sawarn/Face-Eyes-Smile-Detector.git]'
 2. Install dependencies/requirements using the command 'pip install opencv-python' which installs the packages numpy and opencv-python.
 3. Run the project using the command 'python face_eye_smile_detection.py'. By executing the script, the internal webcam gets started and draws blue rectangles around faces, green rectangles around eyes and red rectangles around smiling mouths in the webcam video stream.
 
