@@ -35,6 +35,7 @@ if __name__ == '__main__':
 
     print(
         f"Detector started  |  source={source}\n"
-        "Controls: s=screenshot  p=pause  f/e/m=toggle  Esc=quit"
+        "Controls: s=screenshot  r=record  p=pause  f/e/m=toggle  Esc=quit"
     )
-    start_video_capturing(video_capture, cfg)
+    start_video_capturing(video_capture, cfg, web=args.web)
+

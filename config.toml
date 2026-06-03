@@ -1,0 +1,30 @@
+# Configuration file for Face, Eyes, and Smile Detector
+
+[detection]
+# Backend options: "mediapipe" or "haar" (gracefully falls back to haar if mediapipe is not installed)
+backend             = "mediapipe"
+face_scale_factor   = 1.2
+face_min_neighbors  = 6
+eye_scale_factor    = 1.1
+eye_min_neighbors   = 28
+smile_scale_factor  = 1.7
+smile_min_neighbors = 28
+
+[tracker]
+alpha               = 0.35
+iou_threshold       = 0.30
+detect_interval     = 2
+max_misses          = 6
+
+[ui]
+screenshot_dir      = "imgs"
+recordings_dir      = "recordings"
+
+# Colors in [B, G, R] format
+[ui.colors]
+face                = [255, 0, 0]      # Blue
+eye                 = [0, 255, 0]      # Green
+smile               = [0, 0, 255]      # Red
+hud                 = [255, 255, 255]  # White
+notify              = [0, 220, 100]    # Bright Green
+off                 = [80, 80, 80]     # Grey
